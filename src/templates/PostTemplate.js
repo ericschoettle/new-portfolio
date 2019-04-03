@@ -11,11 +11,11 @@ import { ThemeContext } from "../layouts";
 const PostTemplate = props => {
   const {
     data: {
-      post,
-      authornote: { html: authorNote },
-      site: {
-        siteMetadata: { facebook }
-      }
+      post
+      // authornote: { html: authorNote },
+      // site: {
+      //   siteMetadata: { facebook }
+      // }
     },
     pageContext: { next, prev }
   } = props;
@@ -29,15 +29,15 @@ const PostTemplate = props => {
               post={post}
               next={next}
               prev={prev}
-              authornote={authorNote}
-              facebook={facebook}
+              // authornote={authorNote}
+              // facebook={facebook}
               theme={theme}
             />
           </Article>
         )}
       </ThemeContext.Consumer>
 
-      <Seo data={post} facebook={facebook} />
+      <Seo data={post} />
     </React.Fragment>
   );
 };
@@ -69,17 +69,6 @@ export const postQuery = graphql`
               src
             }
           }
-        }
-      }
-    }
-    authornote: markdownRemark(fileAbsolutePath: { regex: "/author/" }) {
-      id
-      html
-    }
-    site {
-      siteMetadata {
-        facebook {
-          appId
         }
       }
     }

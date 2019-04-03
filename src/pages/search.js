@@ -14,7 +14,7 @@ const SearchPage = props => {
   const {
     data: {
       site: {
-        siteMetadata: { algolia, facebook }
+        siteMetadata: { algolia }
       }
     }
   } = props;
@@ -65,9 +65,6 @@ export const query = graphql`
           appId
           searchOnlyApiKey
           indexName
-        }
-        facebook {
-          appId
         }
       }
     }

@@ -1,8 +1,10 @@
 ---
-title: About
+title: About Me
 ---
 
-This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
+lorem ipsum
+
+<!-- This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
 
 ### Features:
 
@@ -24,4 +26,4 @@ This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-sta
 * **Components** lazy loading (social sharing)
 * **ESLint** (google config)
 * **Prettier** code styling
-* Webpack `BundleAnalyzerPlugin`
+* Webpack `BundleAnalyzerPlugin` -->

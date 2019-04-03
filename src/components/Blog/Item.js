@@ -1,7 +1,7 @@
 import { FaArrowRight } from "react-icons/fa/";
-import { FaCalendar } from "react-icons/fa/";
+// import { FaCalendar } from "react-icons/fa/";
 import { FaTag } from "react-icons/fa/";
-import { FaUser } from "react-icons/fa/";
+// import { FaUser } from "react-icons/fa/";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
@@ -16,7 +16,7 @@ const Item = props => {
       frontmatter: {
         title,
         category,
-        author,
+        // author,
         cover: {
           children: [{ fluid }]
         }
@@ -35,12 +35,12 @@ const Item = props => {
             {title} <FaArrowRight className="arrow" />
           </h1>
           <p className="meta">
-            <span>
+            {/* <span>
               <FaCalendar size={18} /> {prefix}
-            </span>
-            <span>
+            </span> */}
+            {/* <span>
               <FaUser size={18} /> {author}
-            </span>
+            </span> */}
             {category && (
               <span>
                 <FaTag size={18} /> {category}
