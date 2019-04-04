@@ -1,13 +1,13 @@
 ---
-title: Be who you are and say what you feel
-category: "sayings"
+title: Tetris
+category: "Games"
 cover: photo-1489824904134-891ab64532f1.jpg
-author: greg lobinski
+author: Eric Schoettle
 ---
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. [Suspendisse](http://google.com) in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Does the game need introduction? Not at all. It was one of my very first coding projects, it uses nothing more advanced than jQuery, but that doesn't make it any less fun. To code or to play :). 
 
-## H2 Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.
+<!-- ## H2 Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.
 
 Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus.
 
@@ -25,4 +25,4 @@ Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec 
 
 Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
 
-Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum. -->

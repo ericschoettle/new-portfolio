@@ -2,14 +2,13 @@ module.exports = {
   siteTitle: "Eric Schoettle's Portfolio", // <title>
   shortSiteTitle: "Eric Schoettle", // <title> ending for posts and pages
   siteDescription: "Eric Schoettle's professional portfolio",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteUrl: "www.ericschoettle.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
   authorName: "Eric Schoettle",
-  // authorTwitterAccount: "greglobinski",
 
   /* info */
   headerTitle: "Eric Schoettle",
@@ -34,6 +33,6 @@ module.exports = {
   authorSocialLinks: [
     { name: "github", url: "https://github.com/ericschoettle" },
     // { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    // { name: "facebook", url: "http://facebook.com/greglobinski" }
   ]
 };

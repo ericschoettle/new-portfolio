@@ -12,10 +12,10 @@ const CategoryTemplate = props => {
   const {
     pageContext: { category },
     data: {
-      allMarkdownRemark: { totalCount, edges },
-      site: {
-        siteMetadata: { facebook }
-      }
+      allMarkdownRemark: { totalCount, edges }
+      // site: {
+      //   siteMetadata: { facebook }
+      // }
     }
   } = props;
 
@@ -42,7 +42,7 @@ const CategoryTemplate = props => {
         )}
       </ThemeContext.Consumer>
 
-      <Seo facebook={facebook} />
+      {/* <Seo facebook={facebook} /> */}
     </React.Fragment>
   );
 };
