@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "Eric Schoettle's Portfolio", // <title>
   shortSiteTitle: "Eric Schoettle", // <title> ending for posts and pages
   siteDescription: "Eric Schoettle's professional portfolio",
-  siteUrl: "www.ericschoettle.com",
+  siteUrl: "https://www.ericschoettle.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
@@ -12,7 +12,7 @@ module.exports = {
 
   /* info */
   headerTitle: "Eric Schoettle",
-  headerSubTitle: "Tag Line Goes Here",
+  headerSubTitle: "O frabjous day! Callooh! Callay!",
 
   /* manifest.json */
   manifestName: "Eric Schoettle's portfolio",
@@ -31,7 +31,7 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/ericschoettle" },
+    { name: "github", url: "https://github.com/ericschoettle" }
     // { name: "twitter", url: "https://twitter.com/greglobinski" },
     // { name: "facebook", url: "http://facebook.com/greglobinski" }
   ]
