@@ -1,9 +1,10 @@
 ---
 title: Fun
+subtitle: \'Going to the mountains is going home\' - John Muir
 ---
 
-Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
+Well, the world is full of fun things, or at least many that I find fun. However, it's a bit hard to capture the feeling of a deep conversation with old friends, or of the moment of discovery of some facinating new facet of astronomy, or of sending a rock climb you've been projecting for a while. 
 
-Rviverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
+But, I love the mountains more than I know what to do with, and have a decent camera. Nobody's ever accused me of bing a skilled photographer, but I'll admit that I'm pretty darned good at going to beautiful places. So here's a little rest for the eyes. 
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
+
