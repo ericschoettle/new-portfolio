@@ -2,27 +2,14 @@
 title: About Me
 ---
 
-lorem ipsum
+##Curiosity is the best drug. 
 
-<!-- This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
+I mean that. Well, curiosity and the outdoors, but who's counting? 
 
-### Features:
+By education I'm a geologist; it has this beautiful way of pulling together completely disparate ideas and evidence to make one coherent story. Then you get to add spatial reasoning to that, and enough knowledge of all of these dispirate branches of science that you can think about them and enjoy them and intelligently ask someone what their thesis is about. Oh, and you play in the mountains. 
 
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **CSS** with `styled-jsx` and `PostCSS`
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (category based post list)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* 100% **PWA** (manifest.webmanifest, offline support, favicons)
-* Google **Analytics**
-* App **favicons** generator (node script)
-* Easy customizable base **styles** via `theme` object generated from `yaml` file (fonts, colors, sizes)
-* React **v.16** (gatsby-plugin-react-next)
-* **Components** lazy loading (social sharing)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Webpack `BundleAnalyzerPlugin` -->
+But what I discovered as I went from learning science to doing science is that in practice, you spend much less time with the ideas than you would like. You have a cool idea, but then you spend months in a lab trying not to kill your samples or self with hydroflouric acid, and then you get back to your idea. 
+
+The other thing I discovered was programming, the antithesis of 'move slowly and never make mistakes'. Programming is addicting, because you get to spend almost all of your time with the ideas, feeding your curiosity. Got an idea about why your app broke? Tappity tap tap, click run, find out. The world turns into a series of puzzles to solve, and it is beautiful. 
+
+**transition**. One of the greatest joys of programming, for me, is the ability to create things. Using a highly abstracted set of tools, you can make real, concrete things. It's a surprising, empowering pleasure, to me, to dream up some tool, feature, or interaction you want to exist, and then to apply your own creativity to make it real. While I love getting into the nitty gritty of coding and debugging, the absolute best is architecting out an app, drawing flow charts on a whiteboard and naming placeholder functions. Turning nothing into something. 
