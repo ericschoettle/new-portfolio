@@ -45,7 +45,9 @@ class IndexPage extends React.Component {
         <ThemeContext.Consumer>
           {theme => (
             <div>
-              <h1>testing</h1>
+              <p>I'm a </p>
+              <p></p>
+              <p></p>
             </div>
           )}
         </ThemeContext.Consumer>
