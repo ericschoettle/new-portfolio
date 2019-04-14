@@ -2,7 +2,8 @@ import PropTypes from "prop-types";
 import React from "react";
 import { graphql } from "gatsby";
 import { ThemeContext } from "../layouts";
-import Blog from "../components/Blog";
+import Article from "../components/Article/";
+import Page from "../components/Page";
 import Hero from "../components/Hero";
 
 class IndexPage extends React.Component {
@@ -23,7 +24,6 @@ class IndexPage extends React.Component {
         bgMobile: {
           resize: { src: mobile }
         }
-
       }
     } = this.props;
 
@@ -32,6 +32,10 @@ class IndexPage extends React.Component {
       tablet,
       mobile
     };
+
+    const {
+      data: { page }
+    } = this.props;
 
     return (
       <React.Fragment>
@@ -42,15 +46,13 @@ class IndexPage extends React.Component {
         </ThemeContext.Consumer>
 
         <hr ref={this.separator} />
-        <ThemeContext.Consumer>
+        {/* <ThemeContext.Consumer>
           {theme => (
-            <div>
-              <p>I'm a </p>
-              <p></p>
-              <p></p>
-            </div>
+            <Article theme={theme}>
+              <Page page={page} theme={theme} />
+            </Article>
           )}
-        </ThemeContext.Consumer>
+        </ThemeContext.Consumer> */}
         <style jsx>{`
           hr {
             margin: 0;
@@ -68,9 +70,21 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
+// export const pageQuery = graphql`
+//   query PageByPath($slug: String!) {
+//     page: markdownRemark(fields: { slug: { eq: $slug } }) {
+//       id
+//       html
+//       frontmatter {
+//         title
+//       }
+//     }
+//   }
+// `;
+
 //eslint-disable-next-line no-undef
 export const query = graphql`
-  query IndexQuery {
+  query indexQuery {
     bgDesktop: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
       resize(width: 1200, quality: 90, cropFocus: CENTER) {
         src

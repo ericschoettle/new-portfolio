@@ -7,4 +7,6 @@ Well, the world is full of fun things, or at least many that I find fun. However
 
 But, I love the mountains more than I know what to do with, and have a decent camera. Nobody's ever accused me of bing a skilled photographer, but I'll admit that I'm pretty darned good at going to beautiful places. So here's a little rest for the eyes. 
 
+** Beautiful pictures go here when I get around to it **
+
 

@@ -2,7 +2,7 @@
 title: About Me
 ---
 
-##Curiosity is the best drug. 
+## Curiosity is the best drug. 
 
 I mean that. Well, curiosity and the outdoors, but who's counting? 
 
@@ -12,4 +12,4 @@ But what I discovered as I went from learning science to doing science is that i
 
 The other thing I discovered was programming, the antithesis of 'move slowly and never make mistakes'. Programming is addicting, because you get to spend almost all of your time with the ideas, feeding your curiosity. Got an idea about why your app broke? Tappity tap tap, click run, find out. The world turns into a series of puzzles to solve, and it is beautiful. 
 
-**transition**. One of the greatest joys of programming, for me, is the ability to create things. Using a highly abstracted set of tools, you can make real, concrete things. It's a surprising, empowering pleasure, to me, to dream up some tool, feature, or interaction you want to exist, and then to apply your own creativity to make it real. While I love getting into the nitty gritty of coding and debugging, the absolute best is architecting out an app, drawing flow charts on a whiteboard and naming placeholder functions. Turning nothing into something. 
+One of the greatest joys of programming, for me, is the ability to create things. Using a highly abstracted set of tools, you can make real, concrete things. It's a surprising, empowering pleasure, to me, to dream up some tool, feature, or interaction you want to exist, and then to apply your own creativity to make it real. While I love getting into the nitty gritty of coding and debugging, the absolute best is architecting out an app, drawing flow charts on a whiteboard and naming placeholder functions. Turning nothing into something. 
