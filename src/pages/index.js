@@ -23,7 +23,8 @@ class IndexPage extends React.Component {
         },
         bgMobile: {
           resize: { src: mobile }
-        }
+        },
+        page: page
       }
     } = this.props;
 
@@ -32,10 +33,6 @@ class IndexPage extends React.Component {
       tablet,
       mobile
     };
-
-    const {
-      data: { page }
-    } = this.props;
 
     return (
       <React.Fragment>
@@ -46,13 +43,14 @@ class IndexPage extends React.Component {
         </ThemeContext.Consumer>
 
         <hr ref={this.separator} />
-        {/* <ThemeContext.Consumer>
+
+        <ThemeContext.Consumer>
           {theme => (
             <Article theme={theme}>
               <Page page={page} theme={theme} />
             </Article>
           )}
-        </ThemeContext.Consumer> */}
+        </ThemeContext.Consumer>
         <style jsx>{`
           hr {
             margin: 0;
@@ -70,32 +68,27 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-// export const pageQuery = graphql`
-//   query PageByPath($slug: String!) {
-//     page: markdownRemark(fields: { slug: { eq: $slug } }) {
-//       id
-//       html
-//       frontmatter {
-//         title
-//       }
-//     }
-//   }
-// `;
-
 //eslint-disable-next-line no-undef
 export const query = graphql`
   query indexQuery {
-    bgDesktop: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
+    page: markdownRemark(fileAbsolutePath: { regex: "//indexPage/" }) {
+      id
+      html
+      frontmatter {
+        title
+      }
+    }
+    bgDesktop: imageSharp(fluid: { originalName: { regex: "/cover-photo/" } }) {
       resize(width: 1200, quality: 90, cropFocus: CENTER) {
         src
       }
     }
-    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
+    bgTablet: imageSharp(fluid: { originalName: { regex: "/cover-photo/" } }) {
       resize(width: 800, height: 1100, quality: 90, cropFocus: CENTER) {
         src
       }
     }
-    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
+    bgMobile: imageSharp(fluid: { originalName: { regex: "/cover-photo/" } }) {
       resize(width: 450, height: 850, quality: 90, cropFocus: CENTER) {
         src
       }
