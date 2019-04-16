@@ -1,3 +1,8 @@
+# Update notes: 
+
+`npm run deploy`
+
+
 # HeroBlog
 
 A [GatsbyJS](https://www.gatsbyjs.org/) blog starter. <br /><br />

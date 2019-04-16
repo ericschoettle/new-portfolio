@@ -57,6 +57,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "predeploy": "gatsby build",
+    "deploy": "aws s3 sync public/ s3://portfolio-bucket-eric-schoettle --delete",
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E180WXXA9KJABC --paths '/*' && aws cloudfront create-invalidation --distribution-id E3BVZDOGJIPSWA --paths '/*'",
     "devhost": "gatsby develop --host 192.168.0.112",
     "format": "prettier --write 'src/**/*.js'",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
